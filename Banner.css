@@ -1,0 +1,46 @@
+.banner {
+    background: url("https://news.airbnb.com/wp-content/uploads/sites/4/2020/04/Airbnb_Havana_Sea_Home.jpg") center center;
+    height: 60vh;
+    position: relative;
+
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding: 25vh 50px 40px 50px;
+    width: 300px;
+
+}
+
+.banner__info>button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.banner__info>h5 {
+    margin-top: 10px;
+}
+
+.banner__info>button:hover {
+    background-color: white;
+    color: #ff7779;
+}
+
+.banner__search {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
